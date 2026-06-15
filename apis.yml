@@ -10,23 +10,25 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
-  - Public APIs
+- Games And Comics
+- Public APIs
 apis:
-  - name: PokéAPI (GraphQL)
-    description: "The Unofficial GraphQL for PokeAPI"
-    humanURL: https://github.com/mazipan/graphql-pokeapi
-    baseURL: https://github.com/mazipan/graphql-pokeapi
-    tags:
-      - Games And Comics
-    properties:
-      - type: Documentation
-        url: https://github.com/mazipan/graphql-pokeapi
-common:
-  - type: Website
+- name: PokéAPI (GraphQL)
+  description: "The Unofficial GraphQL for PokeAPI"
+  humanURL: https://github.com/mazipan/graphql-pokeapi
+  baseURL: https://github.com/mazipan/graphql-pokeapi
+  tags:
+  - Games And Comics
+  properties:
+  - type: Documentation
     url: https://github.com/mazipan/graphql-pokeapi
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+  - url: graphql/pok-api-graphql-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://github.com/mazipan/graphql-pokeapi
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
