@@ -40,7 +40,8 @@ apis:
 - name: PokéAPI (GraphQL)
   description: "The Unofficial GraphQL for PokeAPI"
   humanURL: https://github.com/mazipan/graphql-pokeapi
-  tags:
+  tags: []
+  tags_raw:
   - Games And Comics
   properties:
   - type: Documentation
